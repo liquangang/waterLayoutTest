@@ -15,6 +15,7 @@
 		1630804E1DD742240020C5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1630804C1DD742240020C5E3 /* LaunchScreen.storyboard */; };
 		163080591DD742240020C5E3 /* WaterFlowTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163080581DD742240020C5E3 /* WaterFlowTestTests.m */; };
 		163080641DD742240020C5E3 /* WaterFlowTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163080631DD742240020C5E3 /* WaterFlowTestUITests.m */; };
+		167F2DEA1DD7462C00BE32EF /* WaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 167F2DE91DD7462C00BE32EF /* WaterLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1630805F1DD742240020C5E3 /* WaterFlowTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFlowTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		163080631DD742240020C5E3 /* WaterFlowTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowTestUITests.m; sourceTree = "<group>"; };
 		163080651DD742240020C5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167F2DE81DD7462C00BE32EF /* WaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterLayout.h; sourceTree = "<group>"; };
+		167F2DE91DD7462C00BE32EF /* WaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				1630804C1DD742240020C5E3 /* LaunchScreen.storyboard */,
 				1630804F1DD742240020C5E3 /* Info.plist */,
 				1630803E1DD742240020C5E3 /* Supporting Files */,
+				167F2DE81DD7462C00BE32EF /* WaterLayout.h */,
+				167F2DE91DD7462C00BE32EF /* WaterLayout.m */,
 			);
 			path = WaterFlowTest;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					1630803A1DD742230020C5E3 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 43QNMNZAG9;
 						ProvisioningStyle = Automatic;
 					};
 					163080531DD742240020C5E3 = {
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				163080461DD742240020C5E3 /* ViewController.m in Sources */,
+				167F2DEA1DD7462C00BE32EF /* WaterLayout.m in Sources */,
 				163080431DD742240020C5E3 /* AppDelegate.m in Sources */,
 				163080401DD742240020C5E3 /* main.m in Sources */,
 			);
@@ -424,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43QNMNZAG9;
 				INFOPLIST_FILE = WaterFlowTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liquangang.WaterFlowTest;
@@ -435,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43QNMNZAG9;
 				INFOPLIST_FILE = WaterFlowTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liquangang.WaterFlowTest;
@@ -507,6 +516,7 @@
 				1630806A1DD742240020C5E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1630806B1DD742240020C5E3 /* Build configuration list for PBXNativeTarget "WaterFlowTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +525,7 @@
 				1630806D1DD742240020C5E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1630806E1DD742240020C5E3 /* Build configuration list for PBXNativeTarget "WaterFlowTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +534,7 @@
 				163080701DD742240020C5E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
